@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 2px 2px #24242426;
+    height: 13vh;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 25vw;
+}
+
+header h2{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+h1{
+    width: 20vw;
+}
+
+button{
+    background-color: orange;
+    width: 17vw;
+    height: 6vh;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.copo{
+    width: 12vw;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 27vh;
+    justify-content: space-between;
+    
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    height: 14vh;
+    justify-content: space-between;
+}
+
+main nav{
+    display: flex;
+    justify-content: space-around;
+    width: 7vw;
+}
+
+@media (max-width:500px) {
+    header{
+        flex-direction: column;
+        height: 14vh;
+    }
+
+    header ul{
+        width: 80vw;
+        justify-content: space-evenly;
+    }
+
+    main section{
+        width: 100vw;
+        align-items: center;
+        height: 70vh;
+        padding-top: 50px;
+    }
+
+    main figure{
+        display: none;
+    }
+
+    h1{
+        width: 85vw;
+        text-align: center;
+    }
+
+    main div{
+        align-items: center;
+        height: 15vh;
+    }
+
+    button{
+        width: 70vw;
+    }
+
+    main nav{
+        width: 30vw;
+    }
+}
